@@ -4,7 +4,7 @@
 * [Download EssentialsX](Downloading-EssentialsX)
 * [Commands](https://essinfo.xeya.me/index.php?page=commands)
 * [Permissions](https://essinfo.xeya.me/index.php?page=permissions)
-* [Locale] (Locale)
+* [Locale](Locale)
 
 ## Features
 * [Improvements over Essentials](Improvements)
