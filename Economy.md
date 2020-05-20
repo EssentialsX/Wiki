@@ -75,8 +75,8 @@ Signs may be used to create shops where players can buy and sell items/blocks to
 #### Signs
 To create a sign, ensure that you have the `signs.create.trade` permission and that you have uncommented `- buy` and `- sell` under `enabledSigns:` in the config.yml
 If a sign is placed and the following is typed:
-![Image of Sign Creation UI](https://github.com/ice-fly/Wiki/blob/ice-fly-Eco-1/images/EcoBuySignUI.png)
-![Image of Completed Buy/Sell Signs](https://github.com/ice-fly/Wiki/blob/ice-fly-Eco-1/images/EcoBuySellSign.png)
+![Image of Sign Creation UI](https://github.com/EssentialsX/Wiki/blob/master/images/EcoBuySignUI.png)
+![Image of Completed Buy/Sell Signs](https://github.com/EssentialsX/Wiki/blob/master/images/EcoBuySellSign.png)
 The sign will allow players with the `signs.use.buy` permission to purchase 1 dirt for $1 when left clicked. If `[Buy]` is changed to `[Sell]` and the player has the respective permission, the player may sell 1 dirt to the server in exchange for $1.
 #### Shops
 To prevent players exploiting the the economy by purchasing from the server using a buy sign and `/sell`, only create Buy signs at or above the rates found in `worth.yml`.
