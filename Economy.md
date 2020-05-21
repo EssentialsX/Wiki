@@ -76,14 +76,16 @@ Signs may be used to create shops where players can buy and sell items/blocks to
 To create a sign, ensure that you have the `signs.create.trade` permission and that you have uncommented `- buy` and `- sell` under `enabledSigns:` in the config.yml
 Signs follow the format:
 ```
-[Buy/Sell]
+[Buy]/[Sell]
 Quantity
 [Material](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
 Cost
 ```
 ###### Example:
-![Image of Sign Creation UI](\images\EcoBuySignUI.png | width=360)
-![Image of Completed Buy/Sell Signs](\images\EcoBuySellSign.png | width=360)
+What is typed into the sign UI | Essentials will turn the `[Buy]`/`[Sell]` blue when done sucessfully
+:-------------------------------:|:-------------------------------:
+| ![Image of Sign Creation UI](/images/EcoBuySignUI.png?v=4&s=360) | ![Image of Completed Buy/Sell Signs](/images/EcoBuySellSign.png?v=4&s=400) |
+
 The sign will allow players with the `signs.use.buy` permission to purchase 1 dirt for $1 when left clicked. If `[Buy]` is changed to `[Sell]` and the player has the respective permission, the player may sell 1 dirt to the server in exchange for $1.
 #### Shops
 To prevent players exploiting the the economy by purchasing from the server using a buy sign and `/sell`, only create Buy signs at or above the rates found in `worth.yml`.
