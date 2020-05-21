@@ -51,7 +51,7 @@ EssentialsX adds the ability to specify the minimum transaction amount to preven
 # Minimum acceptable amount to be used in /pay.
 minimum-pay-amount: 0.001
 ```
-EssentialsX adds currency format to improve the localization. You may uncomment the currency-symbol-format-locale or uncomment currency format and create your own:
+EssentialsX adds currency format to improve the localization. You may uncomment the 'currency-symbol-format-locale' to use our preformatted styles or uncomment 'currency-format' and create your own:
 ```yml
 # The format of currency, excluding symbols. See currency-symbol-format-locale for symbol configuration.
 #
@@ -71,12 +71,19 @@ EssentialsX adds currency format to improve the localization. You may uncomment 
 
 Important permissions include `essentials.eco` and  `essentials.pay`.
 ## Signs & Shops
-Signs may be used to create shops where players can buy and sell items/blocks to the server in exchange for money. 
+Signs may be used to create shops where players can buy and sell items/blocks to and from the server in exchange for money. 
 #### Signs
 To create a sign, ensure that you have the `signs.create.trade` permission and that you have uncommented `- buy` and `- sell` under `enabledSigns:` in the config.yml
-If a sign is placed and the following is typed:
-![Image of Sign Creation UI](https://github.com/EssentialsX/Wiki/blob/master/images/EcoBuySignUI.png)
-![Image of Completed Buy/Sell Signs](https://github.com/EssentialsX/Wiki/blob/master/images/EcoBuySellSign.png)
+Signs follow the format:
+```
+[Buy/Sell]
+Quantity
+[Material](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+Cost
+```
+###### Example:
+![Image of Sign Creation UI](\images\EcoBuySignUI.png | width=360)
+![Image of Completed Buy/Sell Signs](\images\EcoBuySellSign.png | width=360)
 The sign will allow players with the `signs.use.buy` permission to purchase 1 dirt for $1 when left clicked. If `[Buy]` is changed to `[Sell]` and the player has the respective permission, the player may sell 1 dirt to the server in exchange for $1.
 #### Shops
 To prevent players exploiting the the economy by purchasing from the server using a buy sign and `/sell`, only create Buy signs at or above the rates found in `worth.yml`.
