@@ -1,5 +1,6 @@
 # EssentialsX Economy
 The built in economy API will redirect to any other detected economy system such as vault. This means you can use EssEco api as a economy api instead of vault if your plugin is dependent on Essentials.
+
 ## Commands
 There are a number of commands for use in-game, including but not limited to:
    - /eco, /economy: Allows you to take, give, or reset a player's money.
@@ -7,9 +8,11 @@ There are a number of commands for use in-game, including but not limited to:
    - /balance, /bal, /money: Displays the current balance of a player.
    - /baltop, /balancetop: Displays a list of the richest people.
    - /pay: Pays a specified player from your balance.
+
 ## Configuration
 There are a number of different options related to the internal economy system which can be found in the `config.yml`.
 Most of the config options are explained adequately in the comments:
+
 ```yml
 # Defines the balance with which new players begin. Defaults to 0.
 starting-balance: 0
@@ -46,12 +49,16 @@ economy-log-enabled: false
 # This can cause the economy log to fill up quickly so should only be enabled for testing purposes!
 economy-log-update-enabled: false
 ```
+
 EssentialsX adds the ability to specify the minimum transaction amount to prevent the dreaded microtransactions:
+
 ```yml
 # Minimum acceptable amount to be used in /pay.
 minimum-pay-amount: 0.001
 ```
-EssentialsX adds currency format to improve the localization. You may uncomment the 'currency-symbol-format-locale' to use our preformatted styles or uncomment 'currency-format' and create your own:
+
+EssentialsX adds currency format to improve the localization. You may uncomment the `currency-symbol-format-locale` to use our preformatted styles or uncomment `currency-format` and create your own:
+
 ```yml
 # The format of currency, excluding symbols. See currency-symbol-format-locale for symbol configuration.
 #
@@ -66,12 +73,15 @@ EssentialsX adds currency format to improve the localization. You may uncomment 
 # For 1'234,50 use fr-ch
 #currency-symbol-format-locale: en-US
 ```
+
 #### Permissions
 [Permissions for commands can be found here](https://essinfo.xeya.me/permissions.html) (Community maintained list)
 
 Important permissions include `essentials.eco` and  `essentials.pay`.
+
 ## Signs & Shops
 Signs may be used to create shops where players can buy and sell items/blocks to and from the server in exchange for money. 
+
 #### Signs
 To create a sign, ensure that you have the `signs.create.trade` permission and that you have uncommented `- buy` and `- sell` under `enabledSigns:` in the config.yml
 Signs follow the format:
