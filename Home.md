@@ -8,13 +8,13 @@ EssentialsX is the essential plugin for Spigot servers, providing core features 
 * Various moderation tools including **kicks, temporary bans, mutes and jails**
 * Built-in economy features including **sign shops, command costs and full Vault support**
 
-In addition, EssentialsX's optional modules provide further integrated features like chat formatting, world protection, GeoIP lookup and more - see the [Module Breakdown](Module-Breakdown) for more information.
+In addition, EssentialsX's optional modules provide further integrated features like chat formatting, world protection, GeoIP lookup and more - see the [Module Breakdown](Module-Breakdown.md) for more information.
 
 ## Pages
 
-* [Banner Metadata](BannerMeta)
-* [Command Cooldowns](Command-Cooldowns)
-* [Color Permissions](Color-Permissions)
+* [Banner Metadata](BannerMeta.md)
+* [Command Cooldowns](Command-Cooldowns.md)
+* [Color Permissions](Color-Permissions.md)
 * [Commands list](https://essinfo.xeya.me/commands.html) (community-maintained)
 * [Permissions list](https://essinfo.xeya.me/permissions.html) (community-maintained)
 
