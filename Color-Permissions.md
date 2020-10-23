@@ -16,6 +16,7 @@ above:
 
 | Suffix           | Color codes                                       | EssentialsX version |
 |------------------|---------------------------------------------------|---------------------|
+| `rgb` (group)    | `&#rrggbb`                                        | 2.18.0+             |
 | `color` (group)  | `&0 &1 &2 &3 &4 &5 &6 &7 &8 &9 &a &b &c &d &e &f` | All versions        |
 | `format` (group) | `&l &m &n &o &r`                                  | All versions        |
 | `magic` (group)  | `&k`                                              | All versions        |

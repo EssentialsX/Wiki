@@ -16,7 +16,7 @@ Note that AntiBuild doesn't include any kind of region protection; to restrict b
 
 **EssentialsX Chat** includes many of EssentialsX's chat features. It allows you to customise chat formatting on your server by adding prefixes, suffixes and colours in chat, as well as setting different formats for different groups.
 
-*You need Vault and LuckPerms to give players prefixes and suffixes and to detect groups.*
+*You need [Vault](https://www.spigotmc.org/resources/34315/) and [LuckPerms](https://luckperms.net/download) to give players prefixes and suffixes and to detect groups.*
 
 ## EssentialsX GeoIP
 
