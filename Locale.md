@@ -71,6 +71,8 @@ When editing only a few keys, the process should look something like [this (clic
 
 If you decide to edit the locale files with a standard text editor, you may notice lots of text like '\u00a7'. These are Unicode character escapes, which allow you to represent symbols and letters which do not exist in ASCII within an ASCII file. The most common of these you will see is '\u00a7' which represents the **section symbol** (&sect;), used in Minecraft to make colour codes. Other languages such as those that use their own alphabets or use non-standard characters will also need to use these codes. Many Java IDEs will do the conversion to and from Unicode automatically, or you can use a tool like [this](https://native2ascii.net/) to manually convert them.
 
+To use RGB codes in the EssentialsX locale files file you will have to use `§x§R§R§G§G§B§B` where RRGGBB is the HEX code.
+
 ## Example
 
 Let's say you simply want to change the way currency is output so that the currency symbol comes AFTER the balance:

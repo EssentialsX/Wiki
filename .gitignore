@@ -5,6 +5,9 @@
 *.ipr
 *.iws
 
+#TEMP
+.Placeholders.md
+
 # IntelliJ
 out/
 
