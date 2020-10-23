@@ -1,5 +1,5 @@
 # ---> Git (Not sure if this will break)
-.gitignore
+#.gitignore
 
 # ---> Maven
 target/
