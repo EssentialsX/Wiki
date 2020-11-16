@@ -10,7 +10,7 @@ The core EssentialsX jar contains many of the core features for most servers. Th
 
 Note that AntiBuild doesn't include any kind of region protection; to restrict building in specific regions we recommend installing [WorldGuard](https://dev.bukkit.org/projects/worldguard).
 
-*We recommend you use LuckPerms with AntiBuild to make the most of its features.*
+*We recommend you use [LuckPerms](https://luckperms.net/download) with AntiBuild to make the most of its features.*
 
 ## EssentialsX Chat
 

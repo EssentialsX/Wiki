@@ -6,7 +6,7 @@ At the time of writing this (23/10/20) EssentialsX does not support external [Pl
 
 Work In Progress
 
-<!-- You can use the following placeholders in any
+<!-- You can use the following placeholders in any #
 
 - `{DISPLAYNAME}` - This will return the player's displayname
 
@@ -16,9 +16,9 @@ Work In Progress
 
 - `{BALANCE}` - This will return the players balance
 
-- `{MAILS}` - WIP
+- `{MAILS}` - This returns a list of mails a player has left.
 
-- `{WORLD}` - WIP
+- `{WORLD}` - This will return the name of the world the player is in
 
 - `{WORLDNAME}` - probably same as above
 
@@ -26,13 +26,13 @@ Work In Progress
 
 - `{UNIQUE}` - This will return to total amount of players that have ever joined the server
 
-- `{WORLDS}` - WIP
+- `{WORLDS}` - This will return a list of the worlds
 
 - `{PLAYERLIST}` - This will return a list of players
 
 - `{TIME}` - This will return the time
 
-- `{DATE}` - WIP
+- `{DATE}` - This will return the date
 
 - `{WORLDTIME12}` - This will return the world time in 12 hour format (AM/PM)
 

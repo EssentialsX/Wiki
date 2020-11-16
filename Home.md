@@ -15,6 +15,7 @@ In addition, EssentialsX's optional modules provide further integrated features 
 * [[BannerMeta|Banner Metadata]]
 * [[Command-Cooldowns|Command Cooldowns]]
 * [[Color-Permissions|Color Permissions]]
+* [[Placeholders|Placeholders]]
 * [Commands list](https://essinfo.xeya.me/commands.html) (community-maintained)
 * [Permissions list](https://essinfo.xeya.me/permissions.html) (community-maintained)
 

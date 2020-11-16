@@ -6,7 +6,6 @@
 *.iws
 
 #TEMP
-.Placeholders.md
 
 # IntelliJ
 out/
