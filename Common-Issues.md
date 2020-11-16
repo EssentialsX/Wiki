@@ -32,7 +32,7 @@ aliases:
 See the [Bukkit wiki page](https://bukkit.gamepedia.com/Commands.yml#aliases) for more information.
 
 ## Another plugin is overriding an EssentialsX command
-Typically, if EssentialsX finds another plugin providing a command with the same name as one of EssentialsX's own commands, it will try and hand over that command to the other plugin. However, you can force EssentialsX to handle commands that are also provided by another plugin using the [`overridden-commands` section](https://github.com/EssentialsX/Essentials/blob/2.x/Essentials/src/config.yml#L138) of your `config.yml`. This will tell EssentialsX not to "give up" the command to the other plugin.
+Typically, if EssentialsX finds another plugin providing a command with the same name as one of EssentialsX's own commands, it will try and hand over that command to the other plugin. However, you can force EssentialsX to handle commands that are also provided by another plugin using the [`overridden-commands` section](https://github.com/EssentialsX/Essentials/blob/2.x/Essentials/src/config.yml#L162) of your `config.yml`. This will tell EssentialsX not to "give up" the command to the other plugin.
 
 For example, to force EssentialsX to handle the `/msg` command instead of passing it over to another plugin, your section should look like this:
 ```yaml
