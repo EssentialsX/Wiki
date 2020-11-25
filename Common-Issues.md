@@ -62,10 +62,10 @@ This is required to allow EssentialsX's compatibility providers can build agains
 
 Next, [download or clone EssentialsX](https://github.com/EssentialsX/Essentials), open a terminal in the root of the EssentialsX source and run:
 ```bash
-mvn clean install
+./gradle build
 ```
 
-If this completes with no errors, you will be able to find each plugin jar in the `target` subdirectory of the respective plugin's directory - `Essentials/target/` will contain the EssentialsX jar, `EssentialsSpawn/target/` will contain the EssentialsXSpawn jar and so on.
+If this completes with no errors, you will be able to find each plugin jar in the `jars/` directory or in `build/libs/` inside each module's directory
 
 ## How do I add EssentialsX as a dependency?
 ### Maven
@@ -75,7 +75,7 @@ Under `repositories` in your `pom.xml`, you need to add a new `repository` for t
     ...
     <repository>
         <id>ess-repo</id>
-        <url>https://ci.ender.zone/plugin/repository/everything/</url>
+        <url>https://repo.essentialsx.net/releases/</url>
     </repository>
     <repository>
         <id>paper-repo</id>
@@ -89,9 +89,9 @@ Next, add EssentialsX as a `dependency` under `dependencies`:
 <dependencies>
     ...
     <dependency>
-        <groupId>net.ess3</groupId>
+        <groupId>net.essentialsx</groupId>
         <artifactId>EssentialsX</artifactId>
-        <version>2.18.2</version>
+        <version>2.19.0</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
@@ -107,7 +107,7 @@ First, add the repository to your `build.gradle`:
 repositories {
     maven {
         name "essentialsx"
-        url "https://ci.ender.zone/plugin/repository/everything/"
+        url "https://repo.essentialsx.net/releases/"
     }
     maven {
         name "papermc"
@@ -120,7 +120,7 @@ Next, add the dependency as a `compileOnly` dependency:
 ```groovy
 dependencies {
     ...
-    compileOnly 'net.ess3:EssentialsX:2.18.2'
+    compileOnly 'net.essentialsx:EssentialsX:2.19.0'
 }
 ```
 
