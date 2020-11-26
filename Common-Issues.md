@@ -65,7 +65,7 @@ Next, [download or clone EssentialsX](https://github.com/EssentialsX/Essentials)
 ./gradle build
 ```
 
-If this completes with no errors, you will be able to find each plugin jar in the `jars/` directory or in `build/libs/` inside each module's directory
+If this completes with no errors, you will be able to find each plugin jar in the `jars/` directory or, in `build/libs/` inside each module's directory.
 
 ## How do I add EssentialsX as a dependency?
 ### Maven
@@ -74,8 +74,12 @@ Under `repositories` in your `pom.xml`, you need to add a new `repository` for t
 <repositories>
     ...
     <repository>
-        <id>ess-repo</id>
+        <id>essentials-releases</id>
         <url>https://repo.essentialsx.net/releases/</url>
+    </repository>
+    <repository>
+        <id>essentials-snapshots</id>
+        <url>https://repo.essentialsx.net/snapshots/</url>
     </repository>
     <repository>
         <id>paper-repo</id>
@@ -106,8 +110,12 @@ First, add the repository to your `build.gradle`:
 ```groovy
 repositories {
     maven {
-        name "essentialsx"
+        name "essentialsx-releases"
         url "https://repo.essentialsx.net/releases/"
+    }
+    maven {
+        name "essentialsx-snapshots"
+        url "https://repo.essentialsx.net/snapshots/"
     }
     maven {
         name "papermc"

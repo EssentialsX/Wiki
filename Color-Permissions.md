@@ -17,10 +17,10 @@ above:
 
 | Suffix           | Color codes                                       | EssentialsX version |
 |------------------|---------------------------------------------------|---------------------|
-| `rgb` (group)    | `&#RRGGBB`                                        | 2.18.0+             |
 | `color` (group)  | `&0 &1 &2 &3 &4 &5 &6 &7 &8 &9 &a &b &c &d &e &f` | All versions        |
 | `format` (group) | `&l &m &n &o &r`                                  | All versions        |
 | `magic` (group)  | `&k`                                              | All versions        |
+| `rgb`            | `&#RRGGBB`                                        | 2.18.0+             |
 | `black`          | `&0`                                              | 2.16.1.169+         |
 | `dark_blue`      | `&1`                                              | 2.16.1.169+         |
 | `dark_green`     | `&2`                                              | 2.16.1.169+         |
