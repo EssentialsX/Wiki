@@ -69,7 +69,9 @@ When editing only a few keys, the process should look something like [this (clic
 
 ## Colours
 
-To use RGB colour codes, you will need to use Spigot's `§x§R§R§G§G§B§B` format, where RRGGBB come from the colour's hexadecimal code.
+If you have an older messages file, you may notice lots of text like `\u00a7`. These are Unicode character escapes, but are no longer needed in modern versions of EssentialsX which support UTF-8 files, and you can convert these to UTF-8 characters `§` using a tool such as [Interactive native2ascii](https://native2ascii.net/).
+
+To use RGB colour codes, you will need to use Spigot's `§x§R§R§G§G§B§B` format, where RRGGBB come from the colour's hexadecimal code. You can also use [legacy colour codes (`§0` to `§f`)](https://minecraft.gamepedia.com/Formatting_codes#Color_codes) and [formatting codes](https://minecraft.gamepedia.com/Formatting_codes#Formatting_codes).
 
 ## Example
 
