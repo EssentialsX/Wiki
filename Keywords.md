@@ -5,7 +5,7 @@ EssentialsX provides a number of standard keywords (placeholders) that can be us
 | Keyword                 | Usage                                                        |
 | ----------------------- | ------------------------------------------------------------ |
 | {PLAYER}, {DISPLAYNAME} | The player's display name.                                   |
-| {USERNAME}              | The player's user name.                                      |
+| {USERNAME}              | The player's username.                                      |
 | {NICKNAME}              | The player's EssentialsX nickname. If the player has no nickname, the username is used. |
 | {PREFIX}                | The player's prefix, supplied by a permissions plugin via Vault. |
 | {SUFFIX}                | The player's suffix, supplied by a permissions plugin via Vault. |
@@ -22,9 +22,9 @@ EssentialsX provides a number of standard keywords (placeholders) that can be us
 | {ONLINE}                | The amount of players online. Hidden players (e.g. those in vanish) are not counted. |
 | {UNIQUE}                | The amount of unique players that have joined the server.    |
 | {WORLDS}                | The list of worlds on the server.                            |
-| {PLAYERLIST}            | The list of players currently online.                        |
+| {PLAYERLIST}            | The list of players currently online. Hidden players (e.g. those in vanish) are not listed. |
 | {TIME}                  | The current time of the machine the server is running on.    |
-| {DATE}                  | The current time of the machine the server is running on.    |
+| {DATE}                  | The current date of the machine the server is running on.    |
 | {TPS}                   | The server's current TPS.                                    |
 | {UPTIME}                | The time elapsed since the server started up, formatted as a duration. |
 | {PLUGINS}               | The list of plugins on the server.                           |
