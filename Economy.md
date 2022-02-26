@@ -1,5 +1,5 @@
 # EssentialsX Economy
-The built in economy API will redirect to any other detected economy system such as vault. This means you can use EssentialsX Economy as a economy API instead of Vault if your plugin is dependent on EssentialsX.
+EssentialsX comes with a simple, easy-to-use economy system. The built in economy API will redirect to any other detected economy system such as vault. This means you can use EssentialsX Economy as a economy API instead of Vault if your plugin is dependent on EssentialsX.
 
 ## Commands
 There are a number of commands for use in-game, including but not limited to:
