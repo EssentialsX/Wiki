@@ -75,29 +75,15 @@ EssentialsX adds currency format to improve the localization. You may uncomment 
 ```
 
 #### Permissions
-[Permissions for commands can be found here](https://essinfo.xeya.me/permissions.html) (Community maintained list)
+Players need permissions to use economy commands. For example, you can grant them the `essentials.pay` permission to allow them to use `/pay`.
 
-Important permissions include `essentials.eco` and  `essentials.pay`.
+Permissions for other economy commands can be found on [the EssentialsX permissions list](https://essinfo.xeya.me/permissions.html) (community maintained list).
 
 ## Signs & Shops
 Signs may be used to create shops where players can buy and sell items/blocks to and from the server in exchange for money. 
 
 #### Signs
-To create a sign, ensure that you have the `signs.create.trade` permission and that you have uncommented `- buy` and `- sell` under `enabledSigns:` in the config.yml
-Signs follow the format:
-```
-[Buy]/[Sell]
-Quantity
-[Material](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
-Cost
-```
-###### Example:
-What is typed into the sign UI | Essentials will turn the `[Buy]`/`[Sell]` blue when done sucessfully
-:-------------------------------:|:-------------------------------:
-| ![Image of Sign Creation UI](/images/EcoBuySignUI.png?v=4&s=360) | ![Image of Completed Buy/Sell Signs](/images/EcoBuySellSign.png?v=4&s=400) |
+Most economy commands can be used on signs, such as [buy], [sell], or [trade]. You can find an in-depth tutorial at [the original Essentials wiki](https://wiki.mc-ess.net/wiki/Sign_Tutorial)
 
-The sign will allow players with the `signs.use.buy` permission to purchase 1 dirt for $1 when left clicked. If `[Buy]` is changed to `[Sell]` and the player has the respective permission, the player may sell 1 dirt to the server in exchange for $1.
 #### Shops
-To prevent players exploiting the the economy by purchasing from the server using a buy sign and `/sell`, only create Buy signs at or above the rates found in `worth.yml`.
-A good server shop typically offers bulk Sell signs at better rates than the `worth.yml` to encourage players to use the shop over `/sell`.
-Alternatively, if players aren't given the `essentials.sell` permission, their only option is to trade between players or go to the shop.
+WIP
