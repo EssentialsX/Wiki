@@ -1,16 +1,17 @@
 # EssentialsX Economy
-EssentialsX comes with a simple, easy-to-use economy system. The built in economy API will redirect to any other detected economy system such as vault. This means you can use EssentialsX Economy as a economy API instead of Vault if your plugin is dependent on EssentialsX.
+EssentialsX comes with a simple, easy-to-use economy system built into the plugin.
 
 ## Commands
-There are a number of commands for use in-game, including but not limited to:
-   - /eco, /economy: Allows you to take, give, or reset a player's money.
-   - /sell: Sells an item and amount at the price specified in the worth.yml.
-   - /balance, /bal, /money: Displays the current balance of a player.
-   - /baltop, /balancetop: Displays a list of the richest people.
-   - /pay: Pays a specified player from your balance.
+There are a number of commands that players and admins can use in-game, including:
+   - `/eco`, `/economy`: Allows admins to take, give, or reset a player's money.
+   - `/sell`: Sells an item and amount at the price specified in the worth.yml.
+   - `/balance`, `/bal`, `/money`: Displays the current balance of a player.
+   - `/baltop`, `/balancetop`: Displays a list of the richest people.
+   - `/pay`: Pays a specified player from your balance.
 
 ## Configuration
-There are a number of different options related to the internal economy system which can be found in the `config.yml`.
+There are a number of different options related to EssentialsX's economy features which can be found in the `config.yml`.
+
 Most of the config options are explained adequately in the comments:
 
 ```yml
@@ -87,3 +88,6 @@ Most economy commands can be used on signs, such as [buy], [sell], or [trade]. Y
 
 #### Shops
 WIP
+
+## For plugin developers 
+EssentialsX's built-in economy API will redirect to any other detected economy system such as Vault. This means you can use EssentialsX's economy as a economy API instead of Vault if your plugin is dependent on EssentialsX.
