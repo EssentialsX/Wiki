@@ -1,5 +1,5 @@
 # EssentialsX Economy
-EssentialsX comes with a simple, easy-to-use economy system built into the plugin. 
+EssentialsX comes with a simple, easy-to-use economy system built into the core plugin, that you can access mostly through commands (in detail below).
 
 ## Commands
 There are a number of commands that players and admins can use in-game, including:
