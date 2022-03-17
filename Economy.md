@@ -1,12 +1,12 @@
 # EssentialsX Economy
-EssentialsX comes with a simple, easy-to-use economy system built into the plugin.
+EssentialsX comes with a simple, easy-to-use economy system built into the plugin. 
 
 ## Commands
 There are a number of commands that players and admins can use in-game, including:
-   - `/eco`, `/economy`: Allows admins to take, give, or reset a player's money.
-   - `/sell`: Sells an item and amount at the price specified in the worth.yml.
+   - `/eco`, `/economy`: Allows admins to take, give, or reset any player's money.
+   - `/sell`: Sells an item and amount at the price specified in the `worth.yml` file.
    - `/balance`, `/bal`, `/money`: Displays the current balance of a player.
-   - `/baltop`, `/balancetop`: Displays a list of the richest people.
+   - `/baltop`, `/balancetop`: Displays a list of the people with the highest balance in your server.
    - `/pay`: Pays a specified player from your balance.
 
 ## Configuration
