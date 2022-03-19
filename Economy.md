@@ -75,13 +75,13 @@ EssentialsX adds currency format to improve the localization. You may uncomment 
 #currency-symbol-format-locale: en-US
 ```
 
-#### Permissions
+### Permissions
 Players need permissions to use economy commands. For example, you can grant them the `essentials.pay` permission to allow them to use `/pay`.
 
 Permissions for other economy commands can be found on [the EssentialsX permissions list](https://essinfo.xeya.me/permissions.html) (community maintained list).
 
 ## Signs
-Signs may be used to create shops where players can buy and sell items/blocks to and from the server in exchange for in-game money. Most economy commands can be used on signs, such as [Buy], [Sell], or [Trade]. You can find an in-depth tutorial at [the original Essentials wiki](https://wiki.mc-ess.net/wiki/Sign_Tutorial)
+Signs may be used to create shops where players can buy and sell items/blocks to and from the server in exchange for in-game money. Most economy commands can be used on signs, such as [Buy], [Sell], or [Trade]. You can find an in-depth tutorial at [the original Essentials wiki](https://wiki.mc-ess.net/wiki/Sign_Tutorial).
 
 ## For plugin developers 
 EssentialsX's built-in economy API will redirect to any other detected economy system such as Vault. This means you can use EssentialsX's economy as a economy API instead of Vault if your plugin is dependent on EssentialsX.
