@@ -12,36 +12,35 @@ This works for the following:
 * Editing a sign with `/editsign`: `essentials.editsign.<suffix>`
 * Colors on signs **(requires color signs to be enabled)**: `essentials.signs.<suffix>`
 
-Below is a list of valid permissions suffixes. Note that some codes are only available on EssentialsX 2.16.1.169 and
-above:
+Below is a list of valid permissions suffixes:
 
-| Suffix           | Color codes                                       | EssentialsX version |
-|------------------|---------------------------------------------------|---------------------|
-| `color` (group)  | `&0 &1 &2 &3 &4 &5 &6 &7 &8 &9 &a &b &c &d &e &f` | All versions        |
-| `format` (group) | `&l &m &n &o &r`                                  | All versions        |
-| `magic` (group)  | `&k`                                              | All versions        |
-| `rgb`            | `&#RRGGBB`                                        | 2.18.0+             |
-| `black`          | `&0`                                              | 2.16.1.169+         |
-| `dark_blue`      | `&1`                                              | 2.16.1.169+         |
-| `dark_green`     | `&2`                                              | 2.16.1.169+         |
-| `dark_aqua`      | `&3`                                              | 2.16.1.169+         |
-| `dark_red`       | `&4`                                              | 2.16.1.169+         |
-| `dark_purple`    | `&5`                                              | 2.16.1.169+         |
-| `gold`           | `&6`                                              | 2.16.1.169+         |
-| `gray`           | `&7`                                              | 2.16.1.169+         |
-| `dark_gray`      | `&8`                                              | 2.16.1.169+         |
-| `blue`           | `&9`                                              | 2.16.1.169+         |
-| `green`          | `&a`                                              | 2.16.1.169+         |
-| `aqua`           | `&b`                                              | 2.16.1.169+         |
-| `red`            | `&c`                                              | 2.16.1.169+         |
-| `light_purple`   | `&d`                                              | 2.16.1.169+         |
-| `yellow`         | `&e`                                              | 2.16.1.169+         |
-| `white`          | `&f`                                              | 2.16.1.169+         |
-| `bold`           | `&l`                                              | 2.16.1.169+         |
-| `strikethrough`  | `&m`                                              | 2.16.1.169+         |
-| `underline`      | `&n`                                              | 2.16.1.169+         |
-| `italic`         | `&o`                                              | 2.16.1.169+         |
-| `reset`          | `&r`                                              | 2.16.1.169+         |
+| Suffix           | Color codes                                       |
+|------------------|---------------------------------------------------|
+| `color` (group)  | `&0 &1 &2 &3 &4 &5 &6 &7 &8 &9 &a &b &c &d &e &f` |
+| `format` (group) | `&l &m &n &o &r`                                  |
+| `magic` (group)  | `&k`                                              |
+| `rgb`            | `&#RRGGBB`                                        |
+| `black`          | `&0`                                              |
+| `dark_blue`      | `&1`                                              |
+| `dark_green`     | `&2`                                              |
+| `dark_aqua`      | `&3`                                              |
+| `dark_red`       | `&4`                                              |
+| `dark_purple`    | `&5`                                              |
+| `gold`           | `&6`                                              |
+| `gray`           | `&7`                                              |
+| `dark_gray`      | `&8`                                              |
+| `blue`           | `&9`                                              |
+| `green`          | `&a`                                              |
+| `aqua`           | `&b`                                              |
+| `red`            | `&c`                                              |
+| `light_purple`   | `&d`                                              |
+| `yellow`         | `&e`                                              |
+| `white`          | `&f`                                              |
+| `bold`           | `&l`                                              |
+| `strikethrough`  | `&m`                                              |
+| `underline`      | `&n`                                              |
+| `italic`         | `&o`                                              |
+| `reset`          | `&r`                                              |
 
 The individual permissions take priority over the "group" permissions. For example, if you set `essentials.nick.color`
 to `true` then set `essentials.nick.black` to `false`, players will be able to set their nicknames to any color

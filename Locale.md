@@ -18,8 +18,8 @@ Below is a list of languages that EssentialsX supports:
 
 ## Supported languages
 
-- **Standard (US) English**: `en`
-  - **UK**: `en_GB`
+- **Default: US English**: `en`
+  - **UK English**: `en_GB`
 - **Czech**: `cs`
 - **Danish**: `da`
 - **German**: `de`
@@ -34,7 +34,7 @@ Below is a list of languages that EssentialsX supports:
 - **Dutch**: `nl`
 - **Polish**: `pl`
 - **Portuguese**: `pt`
-  - **Brazil**: `pt_BR`
+  - **Brazillian Portuguese**: `pt_BR`
 - **Romanian**: `ro`
 - **Russian**: `ru`
 - **Swedish**: `sv`

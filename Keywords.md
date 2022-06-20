@@ -30,7 +30,7 @@ EssentialsX provides a number of standard keywords (placeholders) that can be us
 | {PLUGINS}               | The list of plugins on the server.                           |
 | {VERSION}               | The server's version string.                                 |
 
-### Where can I use these keywords?
+## Where can I use these keywords?
 
 These keywords can be used with the following EssentialsX features:
 
@@ -38,4 +38,3 @@ These keywords can be used with the following EssentialsX features:
 - Kits: inside the `kits.yml` file.
 - EssentialsX Spawn's newbie announcement: `newbies.announce-format` in the config.
 - The `/broadcastworld` command.
-

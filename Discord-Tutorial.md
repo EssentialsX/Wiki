@@ -1,5 +1,7 @@
 # EssentialsX Discord
 
+<!-- TODO: good lord this page -->
+
 EssentialsX Discord is a module that brings a simple, lightweight, easy-to-use, and bloat-free
 bridge between Discord and Minecraft.
 

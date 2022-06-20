@@ -1,3 +1,7 @@
+# Improvements over Essentials 2
+
+_**Note:** this page is out-of-date and doesn't cover many of EssentialsX's new features. For more information on new features in EssentialsX, check the [EssentialsX release changelogs](https://github.com/EssentialsX/Essentials/releases)._
+
 EssentialsX is a continuation of the original Essentials plugin, which was discontinued around 2014. EssentialsX supports all the same features as classic Essentials, and also contains notable improvements over the original Essentials.
 
 This page aims to detail many of the improvements added by EssentialsX. For a more detailed list of changes between EssentialsX releases, see the [release changelogs](https://github.com/EssentialsX/Essentials/releases).
