@@ -2,6 +2,7 @@
 
 EssentialsX GeoIP integrates geographical IP lookup features into EssentialsX, allowing you to determine approximately where your players come from.
 
+<!-- TODO: not this -->
 <b-message>
 
 This product includes GeoLite2 data created by MaxMind, available from [https://www.maxmind.com](https://www.maxmind.com).

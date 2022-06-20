@@ -17,7 +17,7 @@ command-cooldowns:
   '*potato*': 30
 ```
 
-**NOTE**: Due to YAML's design, any command starting with * must be wrapped in quotation marks (single or double, ' ")
+> _**Note:** Due to YAML's design, any command starting with * must be wrapped in quotation marks (single or double, ' ")._
 
 For **highly technical users** who understand Regex (Regular Expressions), this feature also supports Regex. In order for EssentialsX to begin interpreting regex, the command must start with a caret '^'. Followed by the explicit regex pattern that EssentialsX should match.
 
@@ -26,9 +26,9 @@ command-cooldowns:
   '^^ban([^ip])?( .*)?': 30 # match any ban command that isn't `banip`.
 ```
 
-_**Note:** The leading caret is not part of the regex and is simply removed when parsing the regex. For example, `'^ban([^ip])?( .*)?'` actually becomes `'ban([^ip])?( .*)?'`._
+> _**Note:** The leading caret is not part of the regex and is simply removed when parsing the regex. For example, `'^ban([^ip])?( .*)?'` actually becomes `'ban([^ip])?( .*)?'`._
 
-_**Note:** If a plugin command starts with a caret e.g. `^mycommand`, then the caret must be escaped using a blackslash '\' to prevent EssentialsX from interpreting the command as Regex._
+> _**Note:** If a plugin command starts with a caret e.g. `^mycommand`, then the caret must be escaped using a blackslash '\' to prevent EssentialsX from interpreting the command as Regex._
 
 ## Persistent cooldowns
 
