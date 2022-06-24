@@ -1,3 +1,7 @@
+---
+fullscreen: true
+---
+
 # EssentialsX Discord
 
 <!-- TODO: good lord this page -->
