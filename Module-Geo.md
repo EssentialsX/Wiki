@@ -1,3 +1,7 @@
+---
+title: 'Module: Geo'
+---
+
 # EssentialsX Geo
 
 EssentialsX Geo (formerly EssentialsX GeoIP) integrates geographical IP lookup features into EssentialsX, allowing you to determine approximately where your players come from.

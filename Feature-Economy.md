@@ -1,4 +1,5 @@
 ---
+title: 'Feature: Economy'
 wip: true
 ---
 

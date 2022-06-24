@@ -1,4 +1,5 @@
 ---
+title: 'Module: Discord'
 fullscreen: true
 ---
 

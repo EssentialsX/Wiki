@@ -1,4 +1,5 @@
 ---
+title: 'Feature: Chat and Nicknames'
 wip: true
 ---
 

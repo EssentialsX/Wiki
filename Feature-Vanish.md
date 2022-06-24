@@ -1,4 +1,5 @@
 ---
+title: 'Feature: Vanish'
 wip: true
 ---
 

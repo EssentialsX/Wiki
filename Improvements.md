@@ -13,8 +13,8 @@ This page aims to detail many of the improvements added by EssentialsX. For a mo
   - Supports mob spawners on all supported Minecraft versions.
     * On 1.8-1.12, you can use spawner signs and commands such as `/i mob_spawner:51`, and the spawners will be updated when placed.
     * On 1.13+, you can use `/i blazespawner` to spawn in spawners.
-* Includes new features in base EssentialsX such as [[BannerMeta|Banner Metadata]] for kits, [[Command-Cooldowns|Command Cooldowns]] and dozens of other new config options.
-* Brand new [[Discord-Tutorial|Discord bridge]] addon, and updated versions of all Essentials addons (even XMPP!)
+* Includes new features in base EssentialsX such as [[Feature-BannerMeta|Banner Metadata]] for kits, [[Command-Cooldowns|Command Cooldowns]] and dozens of other new config options.
+* Brand new [[Module-Discord|Discord bridge]] addon, and updated versions of all Essentials addons (even XMPP!)
 * Includes new item aliases for all Minecraft versions, including 1.13 and above.
 * Supports giving spawner eggs with entity ID values and potions with damage values in 1.9-1.12.
 * Uses UUID-backed Vault for permissions group and prefix/suffix lookups, as well as a new Vault adapter rewritten to be more robust.

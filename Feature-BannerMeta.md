@@ -1,3 +1,7 @@
+---
+title: 'Feature: BannerMeta'
+---
+
 # BannerMeta
 
 BannerMeta lets you create custom flag designs for banners and shields. Each banner can have unlimited patterns and patterns listed first will show underneath patterns listed later.
