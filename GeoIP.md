@@ -1,24 +1,16 @@
-# EssentialsX GeoIP
+# EssentialsX Geo
 
-EssentialsX GeoIP integrates geographical IP lookup features into EssentialsX, allowing you to determine approximately where your players come from.
+EssentialsX Geo (formerly EssentialsX GeoIP) integrates geographical IP lookup features into EssentialsX, allowing you to determine approximately where your players come from.
 
-<!-- TODO: not this -->
-<b-message>
+<KitCard>
+EssentialsX Geo includes GeoLite2 data created by MaxMind, available from
+<a href="https://www.maxmind.com">https://www.maxmind.com</a>.
 
-This product includes GeoLite2 data created by MaxMind, available from [https://www.maxmind.com](https://www.maxmind.com).
-
-</b-message>
-
-<b-message type="is-info">
-
-**Note:** as of December 30th 2019, MaxMind now requires users to sign up and create a key in order to access the GeoLite2 database used by EssentialsX.
-You can read more about the reason behind these changes on the [MaxMind blog](https://blog.maxmind.com/2019/12/18/significant-changes-to-accessing-and-using-geolite2-databases/).
-
-This affects *all* versions of EssentialsX, not just new versions. To restore your setup, you'll need to update the module and follow the steps below, even if you were using GeoIP prior to this date.
-
-</b-message>
+</KitCard>
 
 ## Setting up the plugin
+
+MaxMind requires users to sign up and create a key to access the GeoLite2 database. The following steps show how to sign up, create a key and configure EssentialsX Geo to use your key.
 
 First, you'll need to register for access to the GeoLite2 database, which EssentialsX downloads and uses to perform IP lookups.
 
