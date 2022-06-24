@@ -36,32 +36,32 @@ EssentialsX Discord offers *essential* features you'd want from a Discord bridge
 
 1. Once on that page, click on "New Application" button on the top right, give your bot a name, and
    then click "Create".
-> ![Creating Application](./images/discord/create-app.gif)
+> ![Creating Application](/images/docs/2.x/discord/create-app.gif)
 > `New Application` -> Give Application a Name -> `Create`
 
 2. Once you create the application, you'll be directed to its overview. From this screen, you'll
    need to copy your "Client ID"/"Application ID" and save it for a later step. To copy your
    Client ID, click the upper-left most blue "Copy" button. Make sure to save it for a later step.
-> ![Copy Client ID](./images/discord/copy-client-id.gif)
+> ![Copy Client ID](/images/docs/2.x/discord/copy-client-id.gif)
 > `Copy` -> Paste into Notepad for later step
 
 3. Optionally, you can set an icon for your application as it will be the icon for the bot too.
-> ![Avatar](./images/discord/avatar.png)
+> ![Avatar](/images/docs/2.x/discord/avatar.png)
 
 4. The next step is actually creating a bot user for your application. From the overview screen,
    this is done by going to the "Bot" tab on the left, then clicking the "Add Bot" on the right,
    and finally then clicking "Yes, do it!".
-> ![Create Bot](./images/discord/create-bot.gif)
+> ![Create Bot](/images/docs/2.x/discord/create-bot.gif)
 > `Bot` -> `Add Bot` -> `Yes, do it!`
 
 5. Once on this screen, you'll need to uncheck the "Public Bot" setting and then click "Save Changes",
    so other people can't add your bot to servers that are not your own.
-> ![Disable Public Bot](./images/discord/disable-public.gif)
+> ![Disable Public Bot](/images/docs/2.x/discord/disable-public.gif)
 > Uncheck `Public Bot` -> `Save Changes`
 
 6. Finally, you'll need to copy your bot's token and save it for a later step. To copy your bot's token,
    click the blue "Copy" button right of your bot's icon. Make sure to save it for a later step.
-> ![Copy Token](./images/discord/copy-token.gif)
+> ![Copy Token](/images/docs/2.x/discord/copy-token.gif)
 > `Copy` -> Paste into Notepad for later step
 
 7. Next up is adding your bot to your Discord server. First, go to [essentialsx.net/discord.html](https://essentialsx.net/discord.html)
@@ -70,13 +70,13 @@ EssentialsX Discord offers *essential* features you'd want from a Discord bridge
    to chose which server to add the bot to.
    Note for advanced users: **Please use the `essentialsx.net` link above even if you already know how
    to invite bots.** EssentialsX Discord requires more than just the `bot` scope to work.
-> ![OAuth Link Gen](./images/discord/auth.gif)
+> ![OAuth Link Gen](/images/docs/2.x/discord/auth.gif)
 > Paste Client ID -> `Authorize`
 
 8. Once on the Discord authorization website, select the server from the "Select a server" dropdown
    that you want to add the bot to. Then click the "Authorize" button. You may be prompted to confirm
    you are not a bot, proceed with that like you would any other captcha.
-> ![Authorize](./images/discord/add-bot.gif)
+> ![Authorize](/images/docs/2.x/discord/add-bot.gif)
 > Select Server -> `Authorize`
 
 9. For the next few steps, you're going to need to do some stuff in Discord, so start up your
@@ -85,19 +85,19 @@ EssentialsX Discord offers *essential* features you'd want from a Discord bridge
 10. Once in your Discord client, you'll need to enable Developer Mode. Do this by going into the
     Settings, then go to the "Advanced" tab and check on the "Developer Mode" at the bottom of the
     page. Once you've checked "Developer Mode" on, click the `X` at the top right to exit Settings.
-> ![Developer Mode](./images/discord/dev-mode.gif)
+> ![Developer Mode](/images/docs/2.x/discord/dev-mode.gif)
 > `User Settings` -> `Advanced` -> Check `Developer Mode` -> Exit Settings
 
 11. Next is copying a few IDs. First up, you'll want to copy the server (aka guild) id. Do this by
     finding the server you added the bot to, right click its icon, and click "Copy ID". Once you copied
     it, make sure to save it for a later step.
-> ![Guild ID](./images/discord/guild-id.gif)
+> ![Guild ID](/images/docs/2.x/discord/guild-id.gif)
 > Right click server -> `Copy ID` -> Paste into Notepad for later step
 
 12. The other ID you need to copy is the ID of the channel you wish to be your primary channel.
     In other words, this will be the channel that, by default, receives messages for player chat/join/leave/death
     messages as well as mute/kicks. To see how to further configure message types, see [Configuring Messages](#configuring-messages).
-> ![Primary Channel ID](./images/discord/prim-id.gif)
+> ![Primary Channel ID](/images/docs/2.x/discord/prim-id.gif)
 > Right click your 'primary' channel -> `Copy ID` -> Paste into Notepad for later step
 
 13. You've successfully copied all the necessary IDs needed for a basic setup. Next up is generating the
@@ -105,23 +105,23 @@ EssentialsX Discord offers *essential* features you'd want from a Discord bridge
     EssentialsX Discord jar (you can download it [here](https://essentialsx.net/downloads.html) if you do not
     already have one) in your plugins folder, starting your server, and then stopping it as soon as it finishes
     starting up.
-> ![Start/Stop Server](./images/discord/start-stop.gif)
+> ![Start/Stop Server](/images/docs/2.x/discord/start-stop.gif)
 > Drag EssentialsXDiscord jar into plugins folder -> Start Server -> Stop Server
 
 14. Now you can start to configure the plugin with all the stuff you copied from earlier. Open the config
     for EssentialsX Discord located at `plugins/EssentialsDiscord/config.yml`. When you open the config, the
     first thing to configure is your bot's token. Replace `INSERT-TOKEN-HERE` in the config with the token you
     copied earlier from step 6.
-> ![Paste Token](./images/discord/paste-token.gif)
+> ![Paste Token](/images/docs/2.x/discord/paste-token.gif)
 > Re-Copy Token from Step 6 -> Paste as token value
 
 15. Next is the guild ID. Replace the zeros for the guild value in the config with the guild ID you copied
     from step 13.
-> ![Paste Guild](./images/discord/paste-guild.gif)
+> ![Paste Guild](/images/docs/2.x/discord/paste-guild.gif)
 
 16. Finally, you'll need to paste the primary channel ID you copied from step 14 and paste it as the
     primary value in the channels section and once you've done that save the config file!
-> ![Paste Primary](./images/discord/paste-prim.gif)
+> ![Paste Primary](/images/docs/2.x/discord/paste-prim.gif)
 
 17. Congratulations, you've completed the initial setup guide! When you start up your server, you should
     notice that chat and other messages start showing up in the channel you requested they be. Now that you
@@ -138,13 +138,13 @@ need to reload it!
 
 1. Go to the Discord server that your bot is in and find the channel you wish to use for console output.
    Right-click on the channel and click "Copy ID". Save this ID for the next step.
-> ![Copy ID](./images/discord/copy-cons-id.gif)
+> ![Copy ID](/images/docs/2.x/discord/copy-cons-id.gif)
 > Find console channel -> Right Click -> `Copy ID`
 
 2. Now that you have that copied, open the EssentialsX Discord config and find the `console` section. In that
    section, replace the zeros for the `channel` value with the channel ID you copied from the last step. Once
    you paste it, make sure you save the config.
-> ![Paste ID](./images/discord/paste-cons-id.gif)
+> ![Paste ID](/images/docs/2.x/discord/paste-cons-id.gif)
 
 3. Finally, if your server is running, run `ess reload` from your console, otherwise start up your server. You
    should notice console output being directed to that channel! That is all you need if you're okay with the default
@@ -154,18 +154,18 @@ need to reload it!
    level (info/warn/error/etc.), and message are shown for each console message. Let's say you wanted to make the
    timestamp and level bold: since this message would be using Discord's markdown, we can just add \*\* to both sides of
    level and timestamp. Then, once you've done that, just do `/ess reload` and you should see your changes on Discord.
-> ![Bold Format](./images/discord/bold-format.gif)
+> ![Bold Format](/images/docs/2.x/discord/bold-format.gif)
 
 5. Next, you can also configure the name you wish the to show above console messages. By default, it's "EssX Console
    Relay" but can be switched to anything you want.
-> ![Change Name](./images/discord/change-name.gif)
+> ![Change Name](/images/docs/2.x/discord/change-name.gif)
 
 6. Finally, you can also choose to enable an option to treat any message by a user in the console channel as a
    console command. This will mean that anyone who can send messages in your console channel **will be able to execute
    commands as the console**. It is suggested that you stick to the regular `/execute` command
    (see [Discord Commands](#discord-commands)) as those can be restricted to specific roles/users and are also not
    restricted to the console channel.
-> ![Command Relay](./images/discord/command-relay.gif)
+> ![Command Relay](/images/docs/2.x/discord/command-relay.gif)
 
 7. That's all the options for the command relay!
 
@@ -191,17 +191,17 @@ instructions for said example, you can follow along to get the gist of how to ap
 
 1. Find the channel on Discord you want to only send chat messages to, and then right-click the channel and click
    "Copy ID".
-> ![Copy ID](./images/discord/chat-copy-id.gif)
+> ![Copy ID](/images/docs/2.x/discord/chat-copy-id.gif)
 
 2. Next you need to create the actual channel definition, for this example we'll call it `chat`. You create a
    channel definition by adding a new entry to the `channels` section with the key as its name and the ID as the one
    you copied in the last step.
-> ![New Def](./images/discord/new-def.gif)
+> ![New Def](/images/docs/2.x/discord/new-def.gif)
 
 3. Finally, scroll down to the `message-types` section and change the `chat` message type to your newly created
    channel definition. Once you do that, save and either run `/ess reload` if your server is running or start your
    server.
-> ![Move](./images/discord/move-def.gif)
+> ![Move](/images/docs/2.x/discord/move-def.gif)
 
 4. That's all you need to know about the basics of the message system!
 
@@ -226,7 +226,7 @@ seen by other people in the server. With this system, you are able to execute co
 and see the current player list.
 
 For example, here's what the `/execute` command looks like by default:
-> ![/execute](./images/discord/execute-comand.gif)
+> ![/execute](/images/docs/2.x/discord/execute-comand.gif)
 
 As you can see, you can seamlessly run commands without people seeing the content of your commands or their
 response. Additionally, you can also delete the responses once you're done looking at them, so they don't clutter
@@ -245,7 +245,7 @@ them.
     * Description: `Whether other people should not be able to see what commands you execute. Setting to false
       would allow people in the same channel as you to see exactly what command you execute. In the example below,
       you can see how disabling this option shows a message of the user and the command they executed.`
-    * Example: ![Show Command](./images/discord/show-command.gif)
+    * Example: ![Show Command](/images/docs/2.x/discord/show-command.gif)
 * `allowed-roles`
     * Description: `A list of user IDs or role names/IDs that are allowed to use the command. You can also use '*'
       in order to allow everyone to use the command.`
