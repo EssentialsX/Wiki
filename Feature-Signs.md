@@ -173,7 +173,7 @@ EssentialsX has signs for the various crafting stations available in the game. N
 
 <KitCard>
 
-<KitLevel>
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-flow-row gap-4 justify-items-center">
 
 <DocsSign :line1="{ text: '[Anvil]', highlight: 'valid' }"></DocsSign>
 
@@ -181,17 +181,13 @@ EssentialsX has signs for the various crafting stations available in the game. N
 
 <DocsSign :line1="{ text: '[Grindstone]', highlight: 'valid' }"></DocsSign>
 
-</KitLevel>
-
-<KitLevel>
-
 <DocsSign :line1="{ text: '[Loom]', highlight: 'valid' }"></DocsSign>
 
 <DocsSign :line1="{ text: '[Smithing]', highlight: 'valid' }"></DocsSign>
 
 <DocsSign :line1="{ text: '[Workbench]', highlight: 'valid' }"></DocsSign>
 
-</KitLevel>
+</div>
 
 </KitCard>
 
